@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000", // Frontend manzili
+  origin: "https://smart-farm-jqi2.onrender.com/", // Frontend manzili
   methods: ["GET", "POST"],        // Faqatgina GET va POST so‘rovlariga ruxsat beradi
   credentials: true,               // Cookie va boshqa maxfiy ma'lumotlar yuborilishi mumkin
 }));
